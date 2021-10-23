@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header .menu a{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: color, background;
+   
+  }
+  
+  header .menu a:hover{
+    color: #000;
+    background: #fff;
+  }
+  
+  header .btn{
+    color: rgb(36, 37, 34);
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+  }

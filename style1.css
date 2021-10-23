@@ -1,0 +1,13 @@
+body{
+    background-image: url(image1.jpg);
+}
+
+.welcome{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: bold;
+}
+
+
+
